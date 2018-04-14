@@ -6,7 +6,7 @@ public class User {
 
     private Integer id;
     private String username;
-    private String email;
+    private String emailProperty;
     private Integer age;
     private Integer phone;
 
@@ -27,12 +27,12 @@ public class User {
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailProperty() {
+        return emailProperty;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmailProperty(String emailProperty) {
+        this.emailProperty = emailProperty;
     }
 
     public Integer getAge() {
